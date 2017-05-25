@@ -77,7 +77,7 @@ function handleMessage(message) {
 
 function isGoodSentence(sentence) {
     return sentence.toLowerCase().indexOf('chester') === -1 &&
-        !/[^a-zA-Z0-9,.\- !?_+%$#@=]/.test(sentence)
+        !/[^a-zA-Z0-9,.\- !?_+%$#@='"]/.test(sentence)
         && sentiment(sentence).score >= 0;
 }
 
