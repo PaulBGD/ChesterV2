@@ -1,0 +1,28 @@
+{
+  "name": "Chesterv2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "erlpack": "hammerandchisel/erlpack",
+    "keyword-extractor": "^0.0.13",
+    "node-brain": "^1.0.0",
+    "node-fetch": "^1.7.0",
+    "sentiment": "^4.0.0",
+    "uws": "^0.14.5"
+  },
+  "devDependencies": {
+    "builtin-modules": "^1.1.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-json": "^2.1.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
+}
